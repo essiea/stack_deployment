@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /va/www/sites/platform
+git clone Dept' DDI
+cd dept' DDI
+ls
+deployer install
+dev deployer env=QA
